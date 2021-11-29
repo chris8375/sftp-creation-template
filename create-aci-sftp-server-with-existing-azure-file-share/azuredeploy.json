@@ -29,7 +29,7 @@
     },
     "sftpUser": {
       "type": "string",
-      "defaultValue": "sftp",
+      "defaultValue": "primeaccount-2826",
       "metadata": {
         "description": "Username to use for SFTP access"
       }
