@@ -37,7 +37,7 @@
     },
     "sftpUser": {
       "type": "string",
-      "defaultValue": "sftp",
+      "defaultValue": "primeaccount-2826",
       "metadata": {
         "description": "Username to use for SFTP access"
       }
@@ -121,7 +121,7 @@
               ],
               "volumeMounts": [
                 {
-                  "mountPath": "[format('/home/{0}/upload', parameters('sftpUser'))]",
+                  "mountPath": "[format('/home/{0}/primeaccount-2826', parameters('sftpUser'))]",
                   "name": "sftpvolume",
                   "readOnly": false
                 }
